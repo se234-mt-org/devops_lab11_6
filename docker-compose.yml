@@ -1,9 +1,7 @@
 services:
     web:
-        image: minthantko/lab10_2
+        image: minthantko/se234-deploylab11_6
         build: 
             context: .
         ports:
-            - "8080:80"
-        volumes:
-            - ./html:/usr/share/nginx/html
+            - "8089:80"
